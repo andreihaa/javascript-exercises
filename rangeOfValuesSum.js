@@ -6,4 +6,6 @@ function calculateSum(arr){
     console.log(sum); 
 }
 
-calculateSum([1,9])
+calculateSum([1,9])// console.log(sumAll2([1, 4]));
+console.log(sumAll2([5, 10]));
+console.log(sumAll2([10, 5]));
