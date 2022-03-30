@@ -19,4 +19,21 @@ function isPalindrome(word) {
     }
 }
 
-console.log(isPalindrome('abcdcba')); 
+// console.log(isPalindrome('abcdcba')); 
+
+function isPalindrome2(word){
+    let lowercassed = word.toLowerCase(); 
+    let newWord = lowercassed
+        .split("")
+        .reverse()
+        .join("");
+    if(newWord === lowercassed){
+        return true;
+    }
+    else{
+        return false; 
+    }
+}
+
+console.log(isPalindrome2('mama')); 
+console.log(isPalindrome2('wow'))
