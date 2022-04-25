@@ -52,3 +52,11 @@ let fun1 = scopeCheck();
 // console.log(fun1());
 
 
+// function closure(x){
+    //     return function closureIn(y){
+    //         return x+y; 
+    //     }
+    // }
+    
+    // const add5 = closure(5); 
+    // console.log(add5(3)); 

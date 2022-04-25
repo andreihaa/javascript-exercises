@@ -34,5 +34,22 @@ function nextFibo (a, b){
     })
 }
 
-// fiboPromise(10);
+fiboPromise(10);
+
+
+
+// function fibo(num){
+//     let a = 0; 
+//     let b = 1;
+//     let sum = 0;  
+//     while(sum < num){
+//         sum = a + b; 
+//         console.log(sum); 
+//         a = b; 
+//         b = sum; 
+//     }
+// }
+
+// fibo(100); 
+
 
